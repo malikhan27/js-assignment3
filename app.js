@@ -13,7 +13,7 @@ else if (a.charCodeAt() <= 57 && a.charCodeAt() >= 48){acsii= "Your Input is a N
 else if(a.charCodeAt() <= 122 && a.charCodeAt() >= 97){acsii= "Your Input is a Lowercase Letter"}
 else{acsii="Enter A Correct Input"}
 
-document.write(`Answer = <h2> ${acsii} </h2>`)
+document.write(` <h2> Answer = ${acsii} </h2>`)
 
 
 
@@ -29,7 +29,7 @@ else if (num2>num1){remarks= num2 + " " + "is greater than" + " " + num1}
 else if (num2===num1){remarks= num2 + " " + "is equal to" + " " + num1}
 else{remarks="enter a valid"}
 
-document.write(`Answer = <h2> ${remarks} </h2>`)
+document.write(` <h2> Answer = ${remarks} </h2>`)
 
 
 
@@ -45,7 +45,7 @@ else if (input1 == 0){remarks="Your Value is zero"}
 
 else(remarks="enter a valid value")
 
-document.write(` Answer = <h2> ${remarks} </h2>`)
+document.write(`  <h2> Answer = ${remarks} </h2>`)
 
 //q#4
 document.write(`<h1> Question no. 4 <br/> Vowels and Consonant</h1>`)
@@ -56,7 +56,7 @@ if(alphabet.toLocaleLowerCase()==="a" || alphabet.toLocaleLowerCase()==="e" || a
     alphabet.toLocaleLowerCase()==="o" || alphabet.toLocaleLowerCase()==="u" ){remarks= `${alphabet} is a Vowel`}
     else{remarks= `${alphabet} is a consonant`}
 
-document.write(`Answer = <h2> ${remarks} </h2>`)
+document.write(` <h2> Answer = ${remarks} </h2>`)
 
 //q#5
 
@@ -111,5 +111,5 @@ else if(inputTime === "2200" ){remarks="The Time is 10:00 pm"}
 else if(inputTime === "2300" ){remarks="The Time is 11:00 pm"}
 else{remarks= "Enter the correct time"}
 
-document.write(`Answer = <h2> ${remarks} </h2>`)
+document.write(` <h2> Answer = ${remarks} </h2>`)
 
